@@ -8,8 +8,8 @@ import {
 } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
 
-import { InterfaceTarefa } from "../interfaces/Tarefa";
-import { TarefasLista } from "./Tarefa/TarefaLista";
+import { InterfaceTarefa } from "../../interfaces/Tarefa";
+import { TarefasLista } from "../Tarefa/TarefaLista";
 
 const TarefaNova = (props: {
 	tarefa: string;
